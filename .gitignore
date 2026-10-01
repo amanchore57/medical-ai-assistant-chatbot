@@ -1,0 +1,20 @@
+# Environment variables and secrets
+.env
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Runtime Data
+web_chat_history.json
+chat_history_*.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
