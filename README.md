@@ -37,3 +37,25 @@ A full-stack, domain-restricted AI assistant designed to deliver technical defin
 Create a `.env` file in the root directory:
 ```env
 HF_TOKEN=your_huggingface_access_token_here
+```
+
+### 3. Installation
+Activate your virtual environment and install the required dependencies:
+```bash
+pip install fastapi uvicorn openai python-dotenv rich
+```
+
+### 4. Running the Application
+
+**Web Interface:**
+Start the FastAPI server with auto-reload:
+```bash
+uvicorn main:app --reload
+```
+Access the application at `[http://127.0.0.1:8000](http://127.0.0.1:8000)`.
+
+**CLI Interface (Alternative):**
+To run the terminal client directly:
+```bash
+python app.py
+```
